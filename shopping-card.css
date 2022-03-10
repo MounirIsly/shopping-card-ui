@@ -1,0 +1,87 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*border: 1px teal solid;*/
+}
+.item {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    border: 1px solid rgb(172, 196, 196);
+    height: 83px;
+    background-color: rgb(242, 248, 248);
+   
+}
+.total {
+    align-self: center;
+    font-weight: bold;
+    font-size: 13px;
+    color: rgb(1, 100, 100);
+}
+.list-items {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+   margin-top: 10em;
+}
+.item-col-1 {
+    display: flex;
+    align-items: center;
+}
+.item-col-1 h4 {
+    color: rgb(243, 97, 40);
+}
+.item-col-2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+.delete {
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.plus, .minus {
+    background-color: teal;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+#number {
+    text-align: center;
+    align-self: center;
+    font-size: 20px;
+    color: rgb(3, 90, 90);
+}
+.item img {
+    width:60px; 
+    padding-right: 10px;
+    border-radius: 50%;
+}
+.validation {
+    margin-left: 20em;
+}
+.validation button {
+    background-color: teal;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;   
+}
+.currency {
+    margin-left: 3px;
+}
+.no-items {
+    color: red;
+    text-align: center;
+}
